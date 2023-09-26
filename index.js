@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 function countWordsAndCharacters(input) {
     const words = input.split(/\s+/).filter((word) => word !== '').length;
